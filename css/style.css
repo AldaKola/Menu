@@ -461,6 +461,41 @@ img{
 .category span{
     font-weight: 500;
 }
+/* History */
+.history-section{
+    background-color: var(--dark);
+    padding-bottom: 50px;
+}
+.history-item{
+    width: calc((100% / 3) - 30px);
+    margin: 0 15px 30px;
+    padding: 30pz;
+}
+.history-author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.history-author h3{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 0 0 3px;
+}
+.history-author span{
+    display: block;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+/* team section */
+.team-section{
+    background-color: var(--dark);
+}
+.team-item{
+    width: calc(100% / 3);
+    padding: 0 15px;
+}
+
 
 @media screen and (min-width:600px){
     .food-item{
